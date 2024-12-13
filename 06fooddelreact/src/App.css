@@ -1,0 +1,220 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: rgb(18, 14, 15);
+  margin: auto;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: white;
+  font-family: cursive;
+}
+
+/* Tag sections */
+#tag, #tag1 {
+  width: 100%;
+  text-align: center;
+}
+
+#tag {
+  color: rgb(192, 37, 37);
+  line-height: 60px;
+  height: 20px;
+}
+
+#tag1 {
+  color: black;
+  line-height: 40px;
+  height: 30px;
+}
+
+/* Navbar styles */
+#navbar {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(162, 156, 156);
+  text-align: center;
+  margin-top: 0;
+  /* position: fixed; */
+}
+
+.navbar-img {
+  height: 50px;
+  width: auto;  
+  margin-left: 40px;
+  text-align: center;
+  justify-items: center;
+  position: absolute; 
+  margin-top: 20px;
+}
+
+#navcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+ul li a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  background-color: rgb(214, 7, 163);
+}
+
+/* Container1 styling */
+#container1 {
+  width: 100%;
+  text-align: center;
+  color: blue;
+  position: relative;
+  height: 59vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./1.jpg') no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.89;
+  border-bottom-left-radius: 100px;  
+}
+
+/* Welcome section */
+#row1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 30px;
+  position: absolute;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: black;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Row 2 and Row 3 */
+#container3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#row2, #row3 {
+  width: 24vw;
+  height: 21vh;
+  box-shadow: 2px 7px 16px rgba(0, 0, 0, 0.3);
+  margin: 51px 38px;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#row2::before, #row3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('2.jpeg') no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 40px;
+}
+
+/* Top3 section */
+#top3 {
+  text-align: center;
+  color: red;
+}
+
+/* Grid layout for product rows */
+#container4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin: 41px;
+}
+
+#row4, #row5, #row6 {
+  width: 100%;
+  height: 360vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid rgb(120, 134, 148);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Row backgrounds */
+#row4 {
+  background: url('a1.jpeg') no-repeat center center;
+}
+
+#row5 {
+  background: url('a2.jpeg') no-repeat center center;
+}
+
+#row6 {
+  background: url('a3.jpeg') no-repeat center center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: bisque;
+  padding: 20px 0;
+}

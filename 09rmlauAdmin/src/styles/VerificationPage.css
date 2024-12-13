@@ -1,0 +1,35 @@
+.verification-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    background-color: #b5ea91;
+  }
+  
+  .verification-page h2 {
+    text-align: center;
+    color: red;
+  }
+  
+  .verification-page p {
+    font-size: 18px;
+    margin: 20px 10px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  

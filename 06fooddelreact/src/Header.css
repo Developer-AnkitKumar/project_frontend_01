@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    background-color: white;
+    font-family: cursive;
+  }
+  
+  #tag {
+    color: rgb(192, 37, 37);
+    text-align: center;
+  }
+  
+  #tag1 {
+    color: black;
+    text-align: center;
+  }
+  

@@ -1,0 +1,13 @@
+import backgroundImage from './assets/background.jpg';
+
+const backgroundImages = [
+  'https://www.rmlau.ac.in/images/slider/rb-2.jpg',
+ 
+];
+
+const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+
+const styles = {
+  background: `url(${randomImage}) no-repeat center center/cover`,
+  height: '100vh',
+};

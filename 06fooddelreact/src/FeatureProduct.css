@@ -1,0 +1,23 @@
+#container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+  }
+  
+  .btn {
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: red;
+  }
+  
+  #row4, #row5, #row6 {
+    background-size: cover;
+    align-items: flex-end;
+    border-radius: 15px;
+  }
+  
